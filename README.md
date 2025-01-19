@@ -1,4 +1,6 @@
-# Embarca Tech Controle de Pinos
+# EmbarcaTech – Subgrupo 2 (Grupo 07)
+
+# Controle de Pinos
 
 ## O objetivo dessa atividade é usar a porta serial UART para controlar pinos GPIO do microcontrolador RP2040.
 
