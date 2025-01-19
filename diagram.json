@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "author": "Kimberlly Alves Santos",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "board-pi-pico-w", "id": "pico", "top": -51.25, "left": 3.55, "attrs": {} },
+      { "type": "wokwi-rgb-led", "id": "rgb1", "top": 23.2, "left": -133.3, "attrs": {} },
+      {
+        "type": "wokwi-buzzer",
+        "id": "bz1",
+        "top": -26.4,
+        "left": 184.2,
+        "attrs": { "volume": "0.1" }
+      }
+    ],
+    "connections": [
+      [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+      [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+      [ "pico:GP21", "bz1:2", "green", [ "h0" ] ],
+      [ "bz1:1", "pico:GND.6", "green", [ "v0" ] ],
+      [ "rgb1:COM", "pico:GND.4", "green", [ "v47.6", "h124.9" ] ],
+      [ "rgb1:R", "pico:GP13", "green", [ "v0" ] ],
+      [ "rgb1:G", "pico:GP12", "green", [ "v0" ] ],
+      [ "rgb1:B", "pico:GP11", "green", [ "v0" ] ]
+    ],
+    "dependencies": {}
+  }
