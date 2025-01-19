@@ -45,3 +45,5 @@ Para configurar o ambiente de desenvolvimento, siga as instruções abaixo:
 ### 5. Uma placa educacional BitDogLab
  - Cabo tipo micro-usb para usb-a 
  - Download do software de emulação de terminal [PuTTY](https://www.putty.org/?paipat) para estabeler a correta conexão entre o computador e o microcontrolador.
+
+ Clique aqui para assistir o [video apresentação](https://www.youtube.com/shorts/YJ0LYrJohTs) mostrando o projeto em pleno funcionamento. 
